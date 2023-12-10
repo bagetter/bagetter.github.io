@@ -18,4 +18,4 @@
 
 ## Migration Guide
 
-You can use the [NuGet.Server migration](../import/nugetserver.md) guide to import your NuGet.Server packages into BaGetter.
+You can use the [NuGet.Server migration](../Import/nugetserver.md) guide to import your NuGet.Server packages into BaGetter.
