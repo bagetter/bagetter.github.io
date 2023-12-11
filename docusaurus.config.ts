@@ -18,7 +18,7 @@ const config: Config = {
   organizationName: 'bagetter', // Usually your GitHub org/user name.
   projectName: 'BaGetter', // Usually your repo name.
 
-  deploymentBranch: "main",
+  deploymentBranch: "gh-pages",
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
