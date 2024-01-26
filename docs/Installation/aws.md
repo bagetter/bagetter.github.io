@@ -1,7 +1,10 @@
 # Run BaGetter on AWS
 
-!!! warning
-    This page is a work in progress!
+:::warning
+
+This page is a work in progress!
+
+:::
 
 Use Amazon Web Services to scale BaGetter. You can store metadata on [Amazon RDS](https://aws.amazon.com/rds/postgresql/) and upload packages to [Amazon S3](https://aws.amazon.com/s3/).
 
@@ -75,8 +78,11 @@ Publish your first [symbol package](https://docs.microsoft.com/en-us/nuget/creat
 dotnet nuget push -s http://localhost:5000/v3/index.json symbol.package.1.0.0.snupkg
 ```
 
-!!! warning
-    You should secure your server by requiring an API Key to publish packages. For more information, please refer to the [Require an API Key](../configuration.md#require-an-api-key) guide.
+:::warning
+
+You should secure your server by requiring an API Key to publish packages. For more information, please refer to the [Require an API Key](../configuration.md#require-an-api-key) guide.
+
+:::
 
 ## Restore packages
 

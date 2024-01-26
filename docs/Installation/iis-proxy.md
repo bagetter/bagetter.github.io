@@ -27,8 +27,12 @@ You **may** need to give special permissions to the top-level BaGetter folder so
 
 ## Alternative storage path
 
-!!! info
-    Virtual Directories do not work with IIS and Kestrel. For more information, please refer to [ASP.NET Core's documentation](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-2.2#virtual-directories).
+:::info
+
+Virtual Directories do not work with IIS and Kestrel.
+For more information, please refer to [ASP.NET Core's documentation](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/?view=aspnetcore-2.2#virtual-directories).
+
+:::
 
 Ensure that the configuration's storage `Path` has the appropriate forward slashes:
 
